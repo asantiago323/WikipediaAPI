@@ -6,6 +6,9 @@ $(function() {
     var url =
       "https://en.wikipedia.org/w/api.php?action=opensearch&format=json&search=" +
       $("#searchFor").val();
+    if (content != null) {
+      clearPage();
+    }
     $.ajax({
       url: url,
       type: "GET",
@@ -73,6 +76,7 @@ function getTitles() {
     var item = document.createElement("li");
     var a = document.createElement("a");
     var list = document.getElementById("navTitles");
+    item.setAttribute("id", "nav" + i);
     a.textContent = "ID: " + i;
     a.setAttribute("href", "#" + i);
     item.appendChild(a);
@@ -90,4 +94,20 @@ function randomColor() {
       .toUpperCase()).slice(-6);
 
   return color;
+}
+
+function clearPage() {
+  content = null;
+  //clears the displayed data in the body
+  var displayNode = document.getElementById("display");
+  while (displayNode.firstChild) {
+    displayNode.removeChild(displayNode.firstChild);
+  }
+
+  //clears the links in the nav bar
+  var navNode = document.getElementById("navTitles");
+  while (navNode.firstChild) {
+    navNode.removeChild(navNode.firstChild);
+  }
+  wikidata = [];
 }
