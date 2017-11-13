@@ -61,10 +61,13 @@ function showData() {
   }
 }
 function buildWiki() {
-  for (var i = 1; i < content; i++) {
-    var a = 0;
-    for (var j = 0; j < content[i]; j++) {
-      wikidata[a][i - 0] += content[j];
+  var i = 1,
+    j = 0,
+    a = 0;
+  for (var i = 1; i < content.length; i++) {
+    a = 0;
+    for (j = 0; j < content[i].length; j++) {
+      wikidata[a][i - 1] += content[i][j];
       a++;
     }
   }
