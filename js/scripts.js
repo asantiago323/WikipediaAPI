@@ -1,4 +1,4 @@
-var wikidata = [[], []];
+var wikidata = [];
 var content;
 
 $(function() {
@@ -39,7 +39,7 @@ function showData() {
     var p = document.createElement("p");
     var display = document.getElementById("display");
     //set div attributes
-    div.setAttribute("id", wikidata[i][i]);
+    div.setAttribute("id", i);
     div.setAttribute("class", "container-fluid");
     div.setAttribute(
       "style",
@@ -49,10 +49,10 @@ function showData() {
     );
 
     //set h2 content
-    h2.textContent = wikidata[i][i];
+    h2.textContent = wikidata[i][0];
 
     //set paragraph content
-    p.innerHTML = wikidata[i][i + 1] + "\n" + wikidata[i][i + 2];
+    p.innerHTML = wikidata[i][1] + "<br>" + wikidata[i][2];
 
     //appending elements
     div.appendChild(h2);
@@ -62,14 +62,9 @@ function showData() {
 }
 function buildWiki() {
   var i = 1,
-    j = 0,
-    a = 0;
-  for (var i = 1; i < content.length; i++) {
-    a = 0;
-    for (j = 0; j < content[i].length; j++) {
-      wikidata[a][i - 1] += content[i][j];
-      a++;
-    }
+    j;
+  for (j = 0; j < content[i].length; j++) {
+    wikidata.push([content[i][j], content[i + 1][j], content[i + 2][j]]);
   }
 }
 
@@ -78,8 +73,8 @@ function getTitles() {
     var item = document.createElement("li");
     var a = document.createElement("a");
     var list = document.getElementById("navTitles");
-    a.textContent = "ID: " + wikidata[i][i];
-    a.setAttribute("href", "#" + wikidata[i][i]);
+    a.textContent = "ID: " + i;
+    a.setAttribute("href", "#" + i);
     item.appendChild(a);
     list.appendChild(item);
   }
