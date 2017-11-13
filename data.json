@@ -1,0 +1,109 @@
+{
+  "batchcomplete": "",
+  "continue": { "sroffset": 10, "continue": "-||" },
+  "query": {
+    "searchinfo": { "totalhits": 4932 },
+    "search": [
+      {
+        "ns": 0,
+        "title": "Albert Einstein",
+        "pageid": 736,
+        "size": 144168,
+        "wordcount": 15035,
+        "snippet":
+          "<span class=\"searchmatch\">Albert</span> <span class=\"searchmatch\">Einstein</span> (14 March 1879 – 18 April 1955) was a German-born theoretical physicist. <span class=\"searchmatch\">Einstein</span> developed the theory of relativity, one of the two pillars",
+        "timestamp": "2017-11-08T16:39:10Z"
+      },
+      {
+        "ns": 0,
+        "title": "Einstein family",
+        "pageid": 18742711,
+        "size": 37246,
+        "wordcount": 3597,
+        "snippet":
+          "married. <span class=\"searchmatch\">Albert</span> <span class=\"searchmatch\">Einstein</span>'s second wife was Elsa <span class=\"searchmatch\">Einstein</span>, whose mother Fanny Koch was the sister of <span class=\"searchmatch\">Albert</span>'s mother, and whose father, Rudolf <span class=\"searchmatch\">Einstein</span>, was",
+        "timestamp": "2017-11-07T12:49:18Z"
+      },
+      {
+        "ns": 0,
+        "title": "Hans Albert Einstein",
+        "pageid": 1373258,
+        "size": 10786,
+        "wordcount": 892,
+        "snippet":
+          "Hans <span class=\"searchmatch\">Albert</span> <span class=\"searchmatch\">Einstein</span> (/aɪnˈstaɪn, -ˈʃtaɪn/ eyen-STYNE, -SHTYNE; May 14, 1904 – July 26, 1973) was a Swiss-American engineer and educator, the second child",
+        "timestamp": "2017-11-08T22:37:46Z"
+      },
+      {
+        "ns": 0,
+        "title": "Religious and philosophical views of Albert Einstein",
+        "pageid": 23797095,
+        "size": 62879,
+        "wordcount": 8247,
+        "snippet":
+          "<span class=\"searchmatch\">Albert</span> <span class=\"searchmatch\">Einstein</span>'s religious views have been widely studied and often misunderstood. <span class=\"searchmatch\">Einstein</span> stated that he believed in the pantheistic God of Baruch Spinoza",
+        "timestamp": "2017-11-07T00:05:34Z"
+      },
+      {
+        "ns": 0,
+        "title": "Albert Einstein's brain",
+        "pageid": 3627193,
+        "size": 20998,
+        "wordcount": 2553,
+        "snippet":
+          "The brain of physicist <span class=\"searchmatch\">Albert</span> <span class=\"searchmatch\">Einstein</span> has been a subject of much research and speculation. <span class=\"searchmatch\">Einstein</span>'s brain was removed within seven and a half hours",
+        "timestamp": "2017-10-04T03:24:11Z"
+      },
+      {
+        "ns": 0,
+        "title": "List of scientific publications by Albert Einstein",
+        "pageid": 12738235,
+        "size": 164867,
+        "wordcount": 4081,
+        "snippet":
+          "<span class=\"searchmatch\">Albert</span> <span class=\"searchmatch\">Einstein</span> (1879–1955) was a renowned theoretical physicist of the 20th century, best known for his theories of special relativity and general relativity",
+        "timestamp": "2017-11-03T10:57:22Z"
+      },
+      {
+        "ns": 0,
+        "title": "Albert Einstein Medal",
+        "pageid": 3887135,
+        "size": 2514,
+        "wordcount": 230,
+        "snippet":
+          "The <span class=\"searchmatch\">Albert</span> <span class=\"searchmatch\">Einstein</span> Medal is an award presented by the <span class=\"searchmatch\">Albert</span> <span class=\"searchmatch\">Einstein</span> Society in Bern. First given in 1979, the award is presented to people for &quot;scientific",
+        "timestamp": "2017-09-17T16:44:10Z"
+      },
+      {
+        "ns": 0,
+        "title": "Albert Einstein College of Medicine",
+        "pageid": 319759,
+        "size": 56136,
+        "wordcount": 5632,
+        "snippet":
+          "﻿40.850852°N 73.844949°W﻿ / 40.850852; -73.844949 The <span class=\"searchmatch\">Albert</span> <span class=\"searchmatch\">Einstein</span> College of Medicine (&quot;<span class=\"searchmatch\">Einstein</span>&quot; for short), a joint entity between Montefiore Medical",
+        "timestamp": "2017-10-27T17:18:21Z"
+      },
+      {
+        "ns": 0,
+        "title": "Albert Einstein Award",
+        "pageid": 507116,
+        "size": 6074,
+        "wordcount": 566,
+        "snippet":
+          "The <span class=\"searchmatch\">Albert</span> <span class=\"searchmatch\">Einstein</span> Award (sometimes mistakenly called the <span class=\"searchmatch\">Albert</span> <span class=\"searchmatch\">Einstein</span> Medal because it was accompanied with a gold medal) was an award in theoretical",
+        "timestamp": "2017-03-17T20:06:01Z"
+      },
+      {
+        "ns": 0,
+        "title": "Bernhard Caesar Einstein",
+        "pageid": 4151146,
+        "size": 7386,
+        "wordcount": 820,
+        "snippet":
+          "Bernard Caesar <span class=\"searchmatch\">Einstein</span> (10 July 1930 – 30 September 2008) was a German-born Swiss-American physicist, the son of Hans <span class=\"searchmatch\">Albert</span> <span class=\"searchmatch\">Einstein</span>. Of the three known",
+        "timestamp": "2017-09-19T20:38:43Z"
+      }
+    ]
+  }
+}
